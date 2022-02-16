@@ -14,6 +14,7 @@ function App() {
 					<li><Link to="clock"> Clock </Link></li>
 					<li><Link to="card"> Card </Link></li>
 					<li><Link to="focusable-input"> Focusable Input </Link></li>
+					<li><Link to="effect"> Effect </Link></li>
 				</ul>
 			</nav>
 			<main style={{

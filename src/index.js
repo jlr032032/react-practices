@@ -9,6 +9,7 @@ import ToDoList from './views/ToDoList'
 import Clock from './views/Clock'
 import Card from './views/Card'
 import FocusableInput from './views/FocusableInput'
+import Effect from './views/Effect'
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -33,6 +34,10 @@ ReactDOM.render(
 					<Route
 						path="focusable-input"
 						element={<FocusableInput />}
+					/>
+					<Route
+						path="effect"
+						element={<Effect />}
 					/>
 				</Route>
 			</Routes>
